@@ -6,8 +6,6 @@
 define('REST_SERVER', 'http://backend.local');  // the REST server host
 define('REST_PORT', $_SERVER['SERVER_PORT']);               // the port you are running the server on
 
-//*** Explicitly load the REST libraries. 
-$this->load->library(['curl', 'format', 'rest']);
 
 class Menu extends MY_Model {
 
